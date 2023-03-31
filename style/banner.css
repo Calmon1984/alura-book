@@ -31,7 +31,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url(../assets/Vector.svg);
+    background-image: url(../assets/Pesquisa.svg);
     background-repeat: no-repeat;
-    background-position: 3.5em;
+    background-position: 1em
 }

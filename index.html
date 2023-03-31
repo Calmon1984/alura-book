@@ -44,14 +44,18 @@
             <a href="#"> <img src="./assets/Usuário.svg" alt="Meu perfil" class="container__imagem"> </a>
         </div>
     </header>
+
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" name="pesquisa" id="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
     <section class="carrossel">
+
         <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
         <!-- Slider main container -->
+
         <div class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -72,7 +76,101 @@
             <div class="swiper-button-next"></div>
         
         </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="./assets/Angular-1.png" alt="imagem da logo do angular">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__itens ajuste"><img src="./assets/like.svg" alt="coração de like"></li>
+                    <li class="botoes__itens"><img src="./assets/Compras.svg" alt="sacola de compras"></li>
+                </ul>
+                <a href="#" class="botao__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+        
+
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        <!-- Slider main container -->
+    
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./assets/capa-livros/ApacheKafka.svg" alt="Livro sobre Apache Kafka"></div>
+            <div class="swiper-slide"><img src="./assets/capa-livros/Liderança.svg" alt="Livro sobre Liderança em DESIGN"></div>
+            <div class="swiper-slide"><img src="./assets/capa-livros/Javascript.svg" alt="Livro sobre Javascript assertivo"></div>
+            <div class="swiper-slide"><img src="./assets/capa-livros/Guia Front-end.svg" alt="Livro guia Front-end"></div>
+            <div class="swiper-slide"><img src="./assets/capa-livros/Portugol.svg" alt="Livro sobre Portugol"></div>
+            <div class="swiper-slide"><img src="./assets/capa-livros/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+                
+            </div>
+                
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                     <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="./assets/Perfil-escritora 00.svg" alt="imagem da logo do angular">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__itens ajuste"><img src="./assets/like.svg" alt="coração de like"></li>
+                    <li class="botoes__itens"><img src="./assets/Compras.svg" alt="sacola de compras"></li>
+                </ul>
+                <a href="#" class="botao__ancora">Saiba mais</a>
+            </div>
+        </div>
+        
     </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Android</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Marketing Digital</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Agile</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Startups</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">HTML & CSS</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Python</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">OO</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Java,</a>
+            </li>
+        </ul>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {

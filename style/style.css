@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrossel.css");
+@import url("topicos.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -9,6 +10,7 @@
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
     --laranja: #EB9B00;
+    --azul-marinho: #002F52;
     --azul-tranparente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-poppins: 'Poppins', sans-serif;
 }
