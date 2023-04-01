@@ -80,3 +80,28 @@
     padding: 1em 1em 0.7em 1em;
     width: 7.1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 1.63em;
+    }
+
+    .swiper {
+        width: 60vw;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper-button-prev, 
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+       width: 40%;
+       margin: 2em auto;
+    }
+}

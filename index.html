@@ -37,9 +37,38 @@
                 </li>
             </ul>
             <img src="./assets/Logo.svg" alt="logo da alura book" class="container__imagem">
+            <h2 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h2>
         </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" name="caixa" id="icaixa" class="opcoes__caixa">
+            <label for="icaixa">
+                <li class="opcoes__item">CATEGORIAS</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lita-menu__item">
+                    <a href="#" class="lista-menu__link">PROGRAMAÇÃO</a>
+                </li>
+                <li class="lita-menu__item">
+                    <a href="#" class="lista-menu__link">FRONT-END</a>
+                </li>
+                <li class="lita-menu__item">
+                    <a href="#" class="lista-menu__link">INFRAESTRUTURA</a>
+                </li>
+                <li class="lita-menu__item">
+                    <a href="#" class="lista-menu__link">BUSINESS</a>
+                </li>
+                <li class="lita-menu__item">
+                    <a href="#" class="lista-menu__link">DESIGN & UX</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"> <a href="#" class="opcoes__link"></a> FAVORITOS</li>
+            <li class="opcoes__item"> <a href="#" class="opcoes__link"></a> MINHA ESTANTE</li>
+        </ul>
+
         <div class="container">
-            <a href="#"> <img src="./assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem"> </a>
+            <a href="#"> <img src="./assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-ocultar"> </a>
             <a href="#"> <img src="./assets/Compras.svg" alt="Carrinho de compras" class="container__imagem"> </a>
             <a href="#"> <img src="./assets/Usuário.svg" alt="Meu perfil" class="container__imagem"> </a>
         </div>
@@ -172,8 +201,10 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" name="email" id="iemail" class="contato__email" placeholder="Cadastre seu e-mail">
     </section>
 
