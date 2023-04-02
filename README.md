@@ -2,11 +2,11 @@
 
 <h2>Sobre o projeto</h2>
 
-<p>Esse projeto foi desenvolvido como desafio depois da comclusão da formação de <b>HTML e CSS para projetos web</b> da Alura. O Alura Book é uma plataforma de compra de livros da Alura.</p>
+<p>Esse projeto foi desenvolvido como desafio depois da conclusão da formação de <b>HTML e CSS para projetos web</b> da Alura. O Alura Book é uma plataforma de compra de livros da Alura.</p>
 
 <h2>Objetivo</h2>
 
-<p>O objetivo é se desafiar criar um projeto do zero e sozinho aplicando os conceitos de <b>Media Query</b>, apenas com os conhecimentos adquirido na formação</p>
+<p>O objetivo é se desafiar a criar um projeto do zero e sozinho aplicando os conceitos de <b>Media Query</b>, com os conhecimentos adquirido na formação</p>
 
 <h2>Oque eu usei</2>
 
